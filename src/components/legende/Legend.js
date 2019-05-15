@@ -9,6 +9,7 @@ class Legend extends Component {
         return (
             <div className="legend-container">
                 <h2>How to read ?</h2>
+                <p className="legend-intro">Have you read <a href='https://medium.com/@guillaume.meigniez/data-humanism-a-case-study-c16d0efef533' target="_blank">this article ?</a></p>
                 <p className="legend-intro">Each group of circles stands for a running circuit. Each circle represents a run on that circuit. For each circuit a series of colors represents the colors seen in real life on that track. For each run, a series of colors represents the music I was listening to. For each run, a feedback bar gives details about my state of mind.</p>
                 <p className="legend-intro">Each music zone links to a youtube extract.</p>
                 <div className="angle-graph">
